@@ -1,0 +1,29 @@
+{
+  "name": "siapi-generate-plugin",
+  "version": "3.6.5",
+  "description": "Generate an plugin for a Siapi application.",
+  "main": "./lib/index.js",
+  "directories": {
+    "lib": "./lib"
+  },
+  "dependencies": {
+    "fs-extra": "^9.1.0",
+    "lodash": "4.17.21",
+    "siapi-utils": "github:siapi-biru/siapi-utils#v3.6.5"
+  },
+  "scripts": {
+    "test": "echo \"no tests yet\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/siapi-biru/siapi.git"
+  },
+  "bugs": {
+    "url": "https://github.com/siapi-biru/siapi/issues"
+  },
+  "engines": {
+    "node": ">=10.16.0 <=14.x.x",
+    "npm": ">=6.0.0"
+  },
+  "gitHead": "231263a3535658bab1e9492c6aaaed8692d62a53"
+}
